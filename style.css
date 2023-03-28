@@ -1,0 +1,480 @@
+*
+{
+    background-color: #f7e9dc;
+    font-size: 5vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'specimen',sans-serif;
+}
+
+#balance-box
+{
+    background-color: #ec755d;
+    width: 16rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+}
+
+#balance-box-left-side
+{
+    float: left;
+    width: 9rem;
+    background-color: #ec755d;
+}
+
+#balance-box-header
+{
+    background-color: #ec755d;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+#balance-box-balance
+{
+    background-color: #ec755d;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 0.6rem;
+}
+
+#balance-box-right-side
+{
+    background-color: #ec755d;
+}
+
+#balance-box-logo
+{   
+    background-color: #ec755d;
+    margin-top: 0.3rem;
+    margin-left: 3.5rem;
+    width: 3.2rem;
+}
+
+#container
+{
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+    width: 16rem;
+    background-color: #fffcf7;
+    padding: 1rem;
+}
+
+#main-container-header
+{
+    font-size: 1.2rem;
+    background-color: #fffcf7;
+}
+
+#grafic-graph
+{
+    margin-top: 2rem;
+    display: flex;
+    align-items: end;
+    background-color: #fffcf7;
+
+}
+
+#graph-section
+{
+    background-color: #fffcf7;
+}
+
+#month-graphic
+{
+    margin-right: 0.75rem;
+    width: 2rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: #ec755d;
+    margin-left: 0.5rem;
+}
+
+#tuesday-graphic
+{
+    margin-right: 0.75rem;
+    width: 2rem;
+    height: 6rem;
+    border-radius: 5px;
+    background-color: #ec755d;
+}
+
+#wednesday-graphic
+{
+    margin-right: 0.75rem;
+    width: 2rem;
+    height: 9rem;
+    border-radius: 5px;
+    background-color: #77b5bb;
+}
+
+#thursday-graphic
+{
+    margin-right: 0.75rem;
+    width: 2rem;
+    height: 5rem;
+    border-radius: 5px;
+    background-color: #ec755d;
+}
+
+#friday-graphic
+{
+    margin-right: 0.75rem;
+    width: 2rem;
+    height: 3.5rem;
+    border-radius: 5px;
+    background-color: #ec755d;
+}
+
+#saturday-graphic
+{
+    margin-right: 0.75rem;
+    width: 2rem;
+    height: 7.5rem;
+    border-radius: 5px;
+    background-color: #ec755d;
+}
+
+#sunday-graphic
+{
+    margin-right: 0.75rem;
+    width: 2rem;
+    height: 4rem;
+    border-radius: 5px;
+    background-color: #ec755d;
+}
+
+#text-graph
+{
+    display: flex;
+    background-color: #fffcf7;
+}
+
+#text-graph>p
+{
+    font-size: 0.6rem;
+    color: #a29d96;
+    font-weight: 100;
+    margin-left: 1.2rem;
+    margin-top: 0.75rem;
+    background-color: #fffcf7;
+}
+
+#text-graph>p:first-child
+{
+    margin-left: 0.7rem;
+}
+
+#text-graph>p:nth-child(5)
+{
+    margin-left: 1.5rem;
+}
+
+#text-graph>p:nth-child(6)
+{
+    margin-left: 1.65rem;
+}
+
+#text-graph>p:nth-child(7)
+{
+    margin-left: 1.35rem;
+}
+
+.hover-graph
+{
+    transition: 0.25s;
+}
+
+.hover-graph:hover
+{
+    cursor: pointer;
+    background-color: #ff9b87 !important;
+}
+
+.hover-graph:hover:nth-child(3)
+{
+    cursor: pointer;
+    background-color: #b4dfe5 !important;
+}
+
+hr
+{
+    margin-top: 1.5rem;
+}
+
+#bottom-content
+{
+    margin-top: 1.5rem;
+    display: flex;
+    background-color: #fffcf7;
+}
+
+#bottom-left-content
+{
+    background-color: #fffcf7;
+}
+
+#total-text
+{
+    font-size: 0.8rem;
+    color: #808080;
+    background-color: #fffcf7;
+}
+
+#total-money
+{
+    margin-top: 0.5rem;
+    font-weight: 700;
+    background-color: #fffcf7;
+    font-size: 1.5rem;
+}
+
+#bottom-right-content
+{
+    margin-left: 5.5rem;
+    text-align: right;
+    background-color: #fffcf7;
+}
+
+#percent
+{
+    margin-top: 1.5rem;
+    font-weight: 700;
+    font-size: 0.7rem;
+    background-color: #fffcf7;
+}
+
+#date
+{
+    font-size: 0.7rem;
+    color: #808080;
+    background-color: #fffcf7; 
+}
+
+.onclick-box
+{
+    width: 1.75rem;
+}
+
+.price-box
+{
+    width: 1.75rem;
+    font-size: 0.55rem;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 0.25rem;
+    background-color: #392313;
+}
+
+#monday-onclick
+{
+    position: absolute;
+    top: 16.75rem;
+    left: 2.1rem;
+    display: none;
+}
+
+#tuesday-onclick
+{
+    position: absolute;
+    top: 13.75rem;
+    left: 4.3rem;
+    display: none;
+}
+
+#wednesday-onclick
+{
+    position: absolute;
+    top: 10.75rem;
+    left: 6.5rem;
+    display: none;
+}
+
+#thursday-onclick
+{
+    position: absolute;
+    top: 14.75rem;
+    left: 8.8rem;
+    display: none;
+}
+
+#friday-onclick
+{
+    position: absolute;
+    top: 16.35rem;
+    left: 11rem;
+    display: none;
+}
+
+#saturday-onclick
+{
+    position: absolute;
+    top: 12.25rem;
+    left: 13.15rem;
+    display: none;
+}
+
+#sunday-onclick
+{
+    position: absolute;
+    top: 15.85rem;
+    left: 15.4rem;
+    display: none;
+}
+
+@media (min-width:540px) {
+    *
+    {
+        font-size: 3vw;
+    }
+    #monday-onclick
+{
+    top: 16.75rem;
+    left: 9rem;
+}
+
+#tuesday-onclick
+{
+    top: 13.75rem;
+    left: 11.1rem;
+
+}
+
+#wednesday-onclick
+{
+    top: 10.75rem;
+    left: 13.4rem;
+}
+
+#thursday-onclick
+{
+    top: 14.75rem;
+    left: 15.6rem;
+}
+
+#friday-onclick
+{
+    top: 16.35rem;
+    left: 17.9rem;
+}
+
+#saturday-onclick
+{
+    top: 12.25rem;
+    left: 20.1rem;
+}
+
+#sunday-onclick
+{
+    top: 15.85rem;
+    left: 22.3rem;
+}
+}
+
+@media (min-width:880px) {
+    *
+    {
+        font-size: 2vw;
+    }
+    #monday-onclick
+{
+    top: 16.75rem;
+    left: 17.15rem;
+}
+
+#tuesday-onclick
+{
+    top: 13.75rem;
+    left: 19.4rem;
+
+}
+
+#wednesday-onclick
+{
+    top: 10.75rem;
+    left: 21.5rem;
+
+}
+
+#thursday-onclick
+{
+    top: 14.75rem;
+    left: 23.8rem;
+
+}
+
+#friday-onclick
+{
+    top: 16.35rem;
+    left: 26rem;
+}
+
+#saturday-onclick
+{
+    top: 12.25rem;
+    left: 28.2rem;
+}
+
+#sunday-onclick
+{
+    top: 15.85rem;
+    left: 30.4rem;
+}
+}
+
+@media (min-width:1300px) {
+    *
+    {
+        font-size: 1.35vw;
+    }
+    #monday-onclick
+{
+    top: 16.75rem;
+    left: 29.15rem;
+}
+
+#tuesday-onclick
+{
+    top: 13.75rem;
+    left: 31.4rem;
+
+}
+
+#wednesday-onclick
+{
+    top: 10.75rem;
+    left: 33.5rem;
+
+}
+
+#thursday-onclick
+{
+    top: 14.75rem;
+    left: 35.8rem;
+
+}
+
+#friday-onclick
+{
+    top: 16.35rem;
+    left: 38rem;
+}
+
+#saturday-onclick
+{
+    top: 12.25rem;
+    left: 40.2rem;
+}
+
+#sunday-onclick
+{
+    top: 15.85rem;
+    left: 42.4rem;
+
+}
+}
